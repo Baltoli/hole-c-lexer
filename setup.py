@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name                            = "hole-c-lexer",
-    version                         = "0.0.1",
+    version                         = "0.0.2",
     author                          = "Bruce Collie",
     author_email                    = "brucecollie82@gmail.com",
     description                     = "Lexer for the C with syntactic holes",
