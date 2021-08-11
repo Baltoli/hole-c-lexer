@@ -12,7 +12,7 @@ class HoleCLexer(CLexer):
             (words(
                 ('{?}', '??')),
                 Generic.Deleted),
-            (r'\?T\d+', Generic.Deleted),
+            (r'\?T\d+', Keyword.Type),
             inherit,
         ]
     }
